@@ -9,7 +9,6 @@
     "code42day/ga": "1.1.0",
     "slifszyc/user-agent": "0.0.9"
   },
-
   "locals": [
     "style",
     "config",
