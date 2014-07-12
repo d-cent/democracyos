@@ -134,7 +134,7 @@
   "Guest": "Guest",
   "Your sign up data was received. We sent you an email so you can validate your email address.": "Your sign up data was received. We sent you an email so you can validate your email address.",
   "Please check your email (remember to check your spam folder too) and click on the link supplied on the email.": "Please check your email (remember to check your spam folder too) and click on the link supplied on the email.",
-  "Your email has been validated and now you are logged in" : "Your email has been validated and now you are logged in", 
+  "Your email has been validated and now you are logged in" : "Your email has been validated and now you are logged in",
   "You're being redirected in 5 seconds": "You're being redirected in 5 seconds",
   "You can now argue and vote on bills!": "You can now argue and vote on topics!",
   "Go to": "Go to",
@@ -263,6 +263,7 @@
   "admin-laws-form.clause.text-centered": "Text centered",
 
   "admin-laws-form.link.confirmation.title": "Link removal",
+
   "admin-laws-form.message.onsuccess": "Topic successfuly saved",
   "admin-laws-form.message.validation.lawId-required": "Official Id required",
   "admin-laws-form.message.validation.mediaTitle-required": "Media title required",
