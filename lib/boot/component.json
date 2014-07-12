@@ -10,6 +10,7 @@
     "slifszyc/user-agent": "0.0.9"
   },
   "local": [
+    "style",
     "config",
     "body-classes",
     "content-lock",
