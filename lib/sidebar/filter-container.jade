@@ -24,6 +24,23 @@
         li(data-sort=key, class= active ? 'active' : '')
           a(href='#')= t(sort.label)
 
+
+  #tag-filter.btn-group
+    button.btn.btn-default.current-department(type='button', data-toggle='dropdown')
+      span.pull-left= 'sarasa'
+      span.caret
+    ul.dropdown-menu
+      //- - each sort, key in filter.sorts
+      //-   - var active = false;
+      //-   - if (sort == filter.sort)
+      //-     - active = true;
+      //-   li(data-sort=key, class= active ? 'active' : '')
+      //-     a(href='#')= t(sort.label)
+      - each tag in filter.tags()
+        li
+          a(href='#')= tag.name
+
+      //- li(data-sort='datasort', class='active')
       //- Rendered from client's view
 
   -if (citizen.logged())
