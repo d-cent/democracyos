@@ -1,0 +1,29 @@
+{
+  "name": "user-profile",
+  "description": "Basic user profile view",
+  "dependencies": {
+    "visionmedia/debug": "0.7.4",
+    "visionmedia/jade": "1.1.5",
+    "visionmedia/page.js": "1.3.7",
+    "component/t": "1.0.0",
+    "component/dom": "1.0.5"
+  },
+  "local": [
+    "citizen",
+    "view",
+    "render",
+    "title"
+  ],
+  "templates": [
+    "template.jade"
+  ],
+  "styles": [
+    "profile.css"
+
+  ],
+  "scripts": [
+    "view.js",
+    "user-profile.js"
+  ],
+  "main": "user-profile.js"
+}
