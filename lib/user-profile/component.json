@@ -22,7 +22,6 @@
 
   ],
   "scripts": [
-    "view.js",
     "user-profile.js"
   ],
   "main": "user-profile.js"
