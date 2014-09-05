@@ -1,0 +1,18 @@
+#user-profile-wrapper {
+  max-width: 650px;
+  min-height: 100%;
+  padding-top: 24px;
+  margin: 0 auto;
+}
+
+#user-profile-wrapper h2 {
+  display: inline-block;
+}
+
+#user-profile-wrapper img {
+  float: left;
+}
+
+#user-profile-wrapper .name {
+  padding-left: 140px;
+}
