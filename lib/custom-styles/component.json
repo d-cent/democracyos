@@ -1,11 +1,11 @@
 {
-    "name": "custom-style",
+    "name": "custom-styles",
     "description": "Customized style",
     "dependencies": { },
     "local": [ ],
     "scripts": [ ],
     "templates": [ ],
-    "styles": [ "custom.css" ],
+    "styles": [ "custom.styl" ],
     "images": [ ],
     "fonts": [ ]
 }
