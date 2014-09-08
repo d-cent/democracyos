@@ -6,20 +6,21 @@
     "visionmedia/jade": "1.1.5",
     "visionmedia/page.js": "1.3.7",
     "component/t": "1.0.0",
-    "component/dom": "1.0.5"
+    "component/dom": "1.0.5",
+    "redbadger/pillbox": "1.0.2"
   },
   "local": [
     "citizen",
     "view",
     "render",
-    "title"
+    "title",
+    "tags"
   ],
   "templates": [
     "template.jade"
   ],
   "styles": [
-    "profile.css"
-
+    "styles.styl"
   ],
   "scripts": [
     "user-profile.js"
