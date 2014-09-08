@@ -16,6 +16,10 @@
         label= t('Email')
         input.form-control(type='text', disabled='disabled' name='email', tabindex=3, placeholder=t('example@email.com'), value='#{citizen.email}', validate='required email')
       .form-group
+        label= t('About')
+        textarea.form-control(type='textarea' name='about', tabindex=4, placeholder=t('About you'))
+          | #{citizen.about}
+      .form-group
         a(href="https://gravatar.com", target="_blank")
           img(src=citizen.gravatar, width="30")
           strong= t('Change your profile picture at gravatar.com')
