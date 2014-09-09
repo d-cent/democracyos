@@ -27,17 +27,14 @@
 
   #tag-filter.btn-group
     button.btn.btn-default.current-department(type='button', data-toggle='dropdown')
-      span.pull-left= 'sarasa'
+      span.pull-left= filter.get('tag').name
       span.caret
     ul.dropdown-menu
-      //- - each sort, key in filter.sorts
-      //-   - var active = false;
-      //-   - if (sort == filter.sort)
-      //-     - active = true;
-      //-   li(data-sort=key, class= active ? 'active' : '')
-      //-     a(href='#')= t(sort.label)
       - each tag in filter.tags()
-        li
+        - var active = false;
+        - if (tag.hash == filter.get('tag').hash)
+          - active = true;
+        li(data-tag=tag.hash, class= active ? 'active': '')
           a(href='#')= tag.name
 
       //- li(data-sort='datasort', class='active')
