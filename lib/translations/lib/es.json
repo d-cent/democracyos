@@ -64,6 +64,7 @@
   "sidebar.open": "Abiertos",
   "sidebar.closed": "Cerrados",
   "sidebar.hide-voted": "Ocultar votados por mí",
+  "sidebar.tag.all": "Todo",
 
   "sorts.closing-soon": "Próximos a cerrar",
   "sorts.newest-first": "Más nuevos primero",

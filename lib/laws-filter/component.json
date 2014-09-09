@@ -2,13 +2,14 @@
   "name": "laws-filter",
   "description": "Filter for laws. Saves state in session or localStorage if availble",
   "dependencies": {
-  	"component/emitter": "1.0.1",
-  	"visionmedia/debug": "0.7.4",
-  	"cristiandouce/merge-util": "*",
-    "component/t": "*",
-  	"component/type": "*",
-  	"component/to-function": "*"
-  	},
+    "component/emitter": "1.0.1",
+    "visionmedia/debug": "0.7.4",
+    "gvilarino/merge-util": "0.2.0",
+    "component/t": "1.0.0",
+    "component/type": "1.0.0",
+    "component/to-function": "2.0.5",
+    "gvilarino/set": "1.1.0"
+  },
   "local": [
     "citizen",
     "laws",

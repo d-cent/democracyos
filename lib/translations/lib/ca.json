@@ -61,7 +61,8 @@
 
   "sidebar.open": "Overts",
   "sidebar.closed": "Tancats",
-  "sidebar.hide-voted": "Hide voted by me",
+  "sidebar.hide-voted": "Amaga votat per mi",
+  "sidebar.tag.all": "Tot",
 
   "sorts.closing-soon": "Closing soon",
   "sorts.newest-first": "Newest first",
