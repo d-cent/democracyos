@@ -65,6 +65,7 @@
   "sidebar.open": "Open",
   "sidebar.closed": "Closed",
   "sidebar.hide-voted": "Hide voted by me",
+  "sidebar.tag.all": "All",
 
   "sorts.closing-soon": "Closing soon",
   "sorts.newest-first": "Newest first",
@@ -91,7 +92,7 @@
   "comments.sorts.newest-first": "Newest first",
   "comments.sorts.oldest-first": "Oldest first",
   "comments.ordered-by": "Ordered by",
-  "comments.no-citizen-comments": "Noone else has argumented on this topic yet",
+  "comments.no-citizen-comments": "No one else has argumented on this topic yet",
   "comments.no-comments": "Noone else has argumented on this topic yet",
   "Your argument was removed": "Your argument was removed",
   "That comment is not yours!": "That comment is not yours!",
