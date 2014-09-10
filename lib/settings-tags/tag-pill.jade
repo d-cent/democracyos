@@ -1,0 +1,4 @@
+li.tag-pill(data-id=tag.id)
+  .label=tag.name
+  .label.action: a.btn-remove.btn-link(href='#')='x'
+  input(type='hidden', name='tags', value=tag.id)

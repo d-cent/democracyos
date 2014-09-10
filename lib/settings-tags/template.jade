@@ -5,8 +5,7 @@
         i.icon-user
       h1= t('Tags')
     form.form(action="/settings/tags", method="post", role="form", autosubmit='autosubmit')
-      ul.form-messages
       .form-group
-        label #{t('Tags')}
-        input(id='tags', name='tags', type='text')
-      .form-group: button.btn.btn-success.btn-block.btn-lg(tabindex=4)=t('Save')
+        input.form-control(id='availableTags', name='availableTags', type='text', placeholder=t('Type a tag name'))
+      ul.form-messages
+      ul.tag-pills
