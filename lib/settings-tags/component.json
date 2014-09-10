@@ -4,21 +4,24 @@
   "dependencies": {
     "component/dom": "0.7.1",
     "component/t": "1.0.0",
-    "slifszyc/autocomplete": "0.1.3",
+    "slifszyc/autocomplete": "0.1.4",
     "visionmedia/debug": "0.7.4"
   },
   "local": [
     "citizen",
     "form-view",
-    "tags"
+    "tags",
+    "view"
   ],
   "templates": [
+    "tag-pill.jade",
     "template.jade"
   ],
   "styles": [
     "styles.styl"
   ],
   "scripts": [
+    "tag-pill-view.js",
     "view.js"
   ],
   "main": "view.js"
