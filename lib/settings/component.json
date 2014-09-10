@@ -12,7 +12,8 @@
     "render",
     "settings-password",
     "settings-profile",
-    "settings-tags"
+    "settings-tags",
+    "tags"
   ],
   "scripts": [ "settings.js" ],
   "styles": [ "settings.css", "settings-sidebar.css", "settings-heading.css", "settings-responsive.css" ],
