@@ -1,0 +1,11 @@
+#tags-wrapper.hide
+  .tags-settings
+    .heading
+      .circle
+        i.icon-user
+      h1= t('Tags')
+    form.form(action="/settings/tags", method="post", role="form", autosubmit='autosubmit')
+      .form-group
+        input.form-control(id='availableTags', name='availableTags', type='text', placeholder=t('Type a tag name'))
+      ul.form-messages
+      ul.tag-pills
