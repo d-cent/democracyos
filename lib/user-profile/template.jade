@@ -1,16 +1,13 @@
 #user-profile-wrapper.hide
 
   a(href="https://gravatar.com", target="_blank")
-    img(src=citizen.gravatar, width="120")
+    img(src=loadedCitizen.gravatar, width="120")
 
   .name
-    h2 #{citizen.firstName} #{citizen.lastName}
-    p #{citizen.email}
+    h2 #{loadedCitizen.fullName}
 
   .clearfix
 
-  input.tags(name='tags')
-
   .about-container
     h3 About
-    p #{citizen.about}
+    p #{loadedCitizen.about}
