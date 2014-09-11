@@ -15,6 +15,10 @@
   "header.settings": "Settings",
   "header.feedback": "Feedback",
 
+  "profile.about": "About",
+  "profile.tags": "Tags",
+
+
   "Incorrect password": "Incorrect password",
   "Incorrect username": "Incorrect username",
   "Field %s is not set": "Field %s is not set",
