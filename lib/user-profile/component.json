@@ -16,7 +16,8 @@
     "tags"
   ],
   "templates": [
-    "template.jade"
+    "template.jade",
+    "tag-template.jade"
   ],
   "styles": [
     "styles.styl"
