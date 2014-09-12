@@ -13,6 +13,7 @@
     "view",
     "render",
     "title",
+    "request",
     "tags"
   ],
   "templates": [
