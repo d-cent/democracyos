@@ -18,7 +18,8 @@
   ],
   "templates": [
     "template.jade",
-    "tag-template.jade"
+    "tag-template.jade",
+    "activity-item-template.jade"
   ],
   "styles": [
     "styles.styl"

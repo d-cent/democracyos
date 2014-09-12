@@ -1,21 +1,21 @@
 #user-profile-wrapper.hide
+  .profile-container
+    a(href="https://gravatar.com", target="_blank")
+      img(src=loadedCitizen.gravatar, width="120")
 
-  a(href="https://gravatar.com", target="_blank")
-    img(src=loadedCitizen.gravatar, width="120")
+    .name
+      h2 #{loadedCitizen.fullName}
+      button.btn.btn-default.btn-lg.hide
+        span.glyphicon.glyphicon-cog
 
-  .name
-    h2 #{loadedCitizen.fullName}
-    button.btn.btn-default.btn-lg.hide
-      span.glyphicon.glyphicon-cog
+    .clearfix
 
-  .clearfix
+    .about-container
+      h3=t('profile.about')
+      p #{loadedCitizen.about}
 
-  .about-container
-    h3=t('profile.about')
-    p #{loadedCitizen.about}
-
-  .tags-container
-    h3=t('profile.tags')
-    ul.tag-pills
+    .tags-container
+      h3=t('profile.tags')
+      ul.tag-pills
 
   ul.activity-container
