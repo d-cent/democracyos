@@ -28,7 +28,7 @@ li.media.comment-item(data-id=comment.id, class=spam ? 'spam' : '')
           i.icon-remove
         a.comment-action.link-edit.btn-edit(href="#", title=t('comments.edit.argument'))
           i.icon-pencil
-      a(href="/citizen/" + comment.author.id) #{comment.author.fullName}
+      a(href="/citizen/" + comment.author.id) #{comment.author.fullName}&nbsp;
       small.ago(data-time=comment.createdAt.toString())
       - if (comment.editedAt)
         small.edited · #{t('comments.edited')}
