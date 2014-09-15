@@ -1,6 +1,6 @@
 {
-  "name": "user-profile",
-  "description": "Basic user profile view",
+  "name": "activity-stream",
+  "description": "Stream of activities over the system",
   "dependencies": {
     "visionmedia/debug": "0.7.4",
     "visionmedia/jade": "1.1.5",
@@ -9,23 +9,16 @@
     "component/dom": "1.0.5"
   },
   "local": [
-    "citizen",
     "view",
     "render",
-    "title",
-    "request",
-    "activity-stream",
-    "tags"
+    "request"
   ],
   "templates": [
     "template.jade",
-    "tag-template.jade"
-  ],
-  "styles": [
-    "styles.styl"
+    "activity-item-template.jade"
   ],
   "scripts": [
-    "user-profile.js"
+    "view.js"
   ],
-  "main": "user-profile.js"
+  "main": "view.js"
 }
