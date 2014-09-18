@@ -27,7 +27,7 @@
     "logout",
     "help",
     "custom-styles",
-    "user-profile",
+    "profile",
     "404"
   ],
   "scripts": [ "boot.js" ],
