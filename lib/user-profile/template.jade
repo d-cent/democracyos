@@ -1,0 +1,19 @@
+#user-profile-wrapper
+  .profile-container
+    a(href="https://gravatar.com", target="_blank")
+      img(src=loadedCitizen.gravatar, width="120")
+
+    .name
+      h2 #{loadedCitizen.fullName}
+      button.btn.btn-default.btn-lg.hide
+        span.glyphicon.glyphicon-cog
+
+    .clearfix
+
+    .about-container
+      h3=t('profile.about')
+      p #{loadedCitizen.about}
+
+    .tags-container
+      h3=t('profile.tags')
+      ul.tag-pills
