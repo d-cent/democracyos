@@ -12,6 +12,7 @@
     "view",
     "render",
     "request",
+    "citizen",
     "tags"
   ],
   "templates": [
