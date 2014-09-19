@@ -1,5 +1,5 @@
 {
-  "name": "profile",
+  "name": "user-profile",
   "description": "Basic user profile view",
   "dependencies": {
     "visionmedia/debug": "0.7.4",
@@ -9,23 +9,20 @@
     "component/dom": "1.0.5"
   },
   "local": [
-    "citizen",
     "view",
     "render",
-    "title",
     "request",
-    "activity-stream",
-    "user-profile",
     "tags"
   ],
   "templates": [
-    "template.jade"
+    "template.jade",
+    "tag-template.jade"
   ],
   "styles": [
     "styles.styl"
   ],
   "scripts": [
-    "profile.js"
+    "view.js"
   ],
-  "main": "profile.js"
+  "main": "view.js"
 }
