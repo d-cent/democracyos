@@ -17,6 +17,9 @@
     "template.jade",
     "activity-item-template.jade"
   ],
+  "styles": [
+    "style.styl"
+  ],
   "scripts": [
     "view.js"
   ],
