@@ -1,0 +1,23 @@
+{
+  "name": "user-profile-edit",
+  "description": "Editable user profile",
+  "dependencies": {
+    "visionmedia/debug": "0.7.4",
+    "visionmedia/jade": "1.1.5",
+    "component/t": "1.0.0"
+  },
+  "locals": [
+    "citizen",
+    "form-view"
+  ],
+  "templates": [
+    "template.jade"
+  ],
+  "styles": [
+    "style.styl"
+  ],
+  "scripts": [
+    "view.js"
+  ],
+  "main": "view.js"
+}
