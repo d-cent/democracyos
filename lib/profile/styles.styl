@@ -1,0 +1,32 @@
+#profile-wrapper
+  padding-top: 24px
+  margin: 0 auto;
+  max-width: 700px;
+
+  .user-profile,
+  .editable-profile
+    display: inline-block
+    max-width: 444px;
+    float: right;
+
+  .activities
+    display: inline-block
+    float: left
+    width: 210px
+
+@media screen and (max-width: 700px)
+  #profile-wrapper
+    padding-top: 10px
+    margin: 10;
+    max-width: 400px;
+
+    .user-profile,
+    .editable-profile
+      display: block
+      max-width: inherit;
+      float: none;
+
+    .activities
+      display: block
+      float: none
+      width: inherit
