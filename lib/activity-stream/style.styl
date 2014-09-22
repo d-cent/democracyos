@@ -1,22 +1,49 @@
-ul.activity-container
-  max-width: 210px
-  margin-bottom: 0;
-  padding-left: 0;
-  list-style: none;
-  max-height: 500px;
+@media screen and (max-width: 1100px)
+  ul.activity-container
+    max-width: 210px
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    max-height: 500px;
 
-  li
-    border-bottom: 1px solid #D7DBDD
+    li
+      border-bottom: 1px solid #D7DBDD
 
-    .title
-      font-size: 15px
-      line-height: 19px
-      font-weight: bold
-      display: block
-      margin-bottom: 0px
+      .title
+        font-size: 15px
+        line-height: 19px
+        font-weight: bold
+        display: block
+        margin-bottom: 0px
 
-    .date-time
-      font-size: 11px
-      opacity: 0.5
-      background: #ffffff
-      color: #000000
+      .date-time
+        font-size: 11px
+        opacity: 0.5
+        background: #ffffff
+        color: #000000
+
+@media screen and (max-width: 700px)
+  ul.activity-container
+    max-width: inherit
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    max-height: 500px;
+
+    li
+      border-bottom: 1px solid #D7DBDD
+      padding-left: 10px
+
+      .title
+        font-size: 15px
+        line-height: 19px
+        font-weight: bold
+        display: block
+        margin-bottom: 0px
+        margin-top: 20px
+
+      .date-time
+        font-size: 11px
+        opacity: 0.5
+        background: #ffffff
+        color: #000000
