@@ -1,24 +1,53 @@
-#user-profile-wrapper
-  max-width: 650px
-  min-height: 100%
-  padding-top: 24px
-  margin: 0 auto
+@media screen and (max-width: 1100px)
+  #user-profile-wrapper
+    max-width: 650px
+    min-height: 100%
+    padding-top: 24px
+    margin: 0 auto
 
-  .profile-container
-    float: right
+    .profile-container
+      float: right
 
-    h2,button
-      display: inline-block
-      margin-bottom: 10px
-    img
-      float: left
+      h2,button
+        display: inline-block
+        margin-bottom: 10px
+      img
+        float: left
 
-    .name
-      padding-left: 140px
+      .name
+        padding-left: 140px
 
-    .tags-container
-      ul.tag-pills
-        .tag-pill
-          .label
-            display: inline-block
-            height: 15px
+      .tags-container
+        ul.tag-pills
+          .tag-pill
+            .label
+              display: inline-block
+              height: 15px
+
+@media screen and (max-width: 700px)
+  #user-profile-wrapper
+    max-width: 400px
+    min-height: 100%
+    padding-top: 0px
+    margin: 10;
+
+    .profile-container
+      h2
+        font-size: 20px;
+        margin-top: 0;
+      button
+        padding: 10px
+
+      img
+        float: left
+        width: 90px;
+
+      .name
+        padding-left: 100px
+
+      .tags-container
+        ul.tag-pills
+          .tag-pill
+            .label
+              display: inline-block
+              height: 15px
