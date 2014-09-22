@@ -1,15 +1,41 @@
-#profile-wrapper
-  form .form-group
-    a
-      display: inline-block
-      text-decoration: underline
+@media screen and (max-width: 1100px)
+  #user-profile-wrapper-edit
+    form .form-group
+      a
+        display: inline-block
+        text-decoration: underline
 
-    &:hover
-      text-decoration: underline
+      &:hover
+        text-decoration: underline
 
-    img
-      border-radius: 4px
-      margin-right: 10px
+      img
+        border-radius: 4px
+        margin-right: 10px
 
-    span.error
-      top: 40px
+      span.error
+        top: 40px
+
+@media screen and (max-width: 700px)
+  #user-profile-wrapper-edit
+    margin: auto 10px
+
+    form .form-group
+      a
+        display: inline-block
+        text-decoration: underline
+
+        strong
+          display: inline-block;
+          max-width: 200px;
+
+      &:hover
+        text-decoration: underline
+
+      img
+        border-radius: 4px
+        margin-right: 10px
+        width: 70px
+        display: inline-block
+
+      span.error
+        top: 40px
