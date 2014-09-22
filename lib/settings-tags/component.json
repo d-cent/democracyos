@@ -9,7 +9,6 @@
   },
   "local": [
     "citizen",
-    "form-view",
     "tags",
     "view"
   ],
