@@ -15,4 +15,6 @@
       label= t('About')
       textarea.form-control(type='textarea' name='about', tabindex=4, placeholder=t('About you'))
         | #{citizen.about}
+    .form-group.tags-wrapper
+
     .form-group: button.btn.btn-success.btn-block.btn-lg(tabindex=4)=t('Save')
