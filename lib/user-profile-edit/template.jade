@@ -1,6 +1,5 @@
 #user-profile-wrapper-edit.hide
   form.form(action="/settings/profile", method="post", role="form", autocomplete="off", autovalidate='autovalidate', autosubmit='autosubmit')
-    ul.form-messages
     .form-group
       a(href="https://gravatar.com", target="_blank")
         img(src=citizen.gravatar, width="30")
@@ -17,4 +16,5 @@
         | #{citizen.about}
     .form-group.tags-wrapper
 
+    ul.form-messages
     .form-group: button.btn.btn-success.btn-block.btn-lg(tabindex=4)=t('Save')
