@@ -6,7 +6,7 @@
     "visionmedia/jade": "1.1.5",
     "visionmedia/page.js": "1.3.7",
     "component/t": "1.0.0",
-    "component/dom": "1.0.5"
+    "component/dom": "1.0.6"
   },
   "local": [
     "citizen",
