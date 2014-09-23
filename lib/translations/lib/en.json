@@ -38,6 +38,7 @@
   "Sessions": "Sessions",
   "Notifications": "Notifications",
   "Change your profile picture at gravatar.com": "Change your profile picture at gravatar.com",
+  "Or paste an image URL here...": "Or paste an image URL here...",
   "First name isn't valid": "First name isn't valid",
   "Last name isn't valid": "Last name isn't valid",
   "First name should be 100 characters or less": "First name should be 100 characters or less",
@@ -70,7 +71,6 @@
   "sidebar.open": "Open",
   "sidebar.closed": "Closed",
   "sidebar.hide-voted": "Hide voted by me",
-  "sidebar.tag.all": "All",
 
   "sorts.closing-soon": "Closing soon",
   "sorts.newest-first": "Newest first",
@@ -140,7 +140,7 @@
   "Please check your email (remember to check your spam folder too) and click on the link supplied on the email.": "Please check your email (remember to check your spam folder too) and click on the link supplied on the email.",
   "Your email has been validated and now you are logged in" : "Your email has been validated and now you are logged in",
   "You're being redirected in 5 seconds": "You're being redirected in 5 seconds",
-  "You can now argue and vote on bills!": "You can now argue and vote on topics!",
+  "You can now argue and vote on bills!": "You can now argue and vote on bills!",
   "Go to": "Go to",
   "browsing": "browsing",
   "Your sign up data was received": "Your sign up data was received",
@@ -151,8 +151,8 @@
   "Resend email": "Resend email",
   "Email sent" : "Email sent",
   "The validation email was resent.": "The validation email was resent.",
-  "Email not validated" : "The email address for this user is not validated. We send users a welcome email when they sign up. Please check your email (remember to check your spam folder too) and click on the link supplied on the email. Click <a href='/signup/resend-validation-email'>here</a> if you need the welcome email to be resent",
-  "No citizen found with that email address": "No user found with that email address",
+  "Email not validated" : "The email address for this citizen is not validated. We send citizens a welcome email when they sign up. Please check your email (remember to check your spam folder too) and click on the link supplied on the email. Click <a href='/signup/resend-validation-email'>here</a> if you need the welcome email to be resent",
+  "No citizen found with that email address": "No citizen found with that email address",
 
   "Account data": "Account data",
   "Account updated": "Account updated",
@@ -184,7 +184,7 @@
   "Results will be shown when this law is closed": "Results will be shown when this topic is closed",
   "Summary": "Summary",
   "Chart": "Chart",
-
+  
   "Clause": "Clause",
   "read more": "Read more",
   "view more": "view more",
