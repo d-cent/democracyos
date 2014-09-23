@@ -1,6 +1,7 @@
 #user-profile-wrapper
   .profile-container
-    img(src=loadedCitizen.gravatar, width="120")
+    - var src = loadedCitizen.profilePictureUrl ? loadedCitizen.profilePictureUrl : loadedCitizen.gravatar
+    img(src=src, width="120")
 
     .name
       h2 #{loadedCitizen.fullName}
