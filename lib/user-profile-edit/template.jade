@@ -1,9 +1,13 @@
 #user-profile-wrapper-edit.hide
   form.form(action="/settings/profile", method="post", role="form", autocomplete="off", autovalidate='autovalidate', autosubmit='autosubmit')
     .form-group
-      a(href="https://gravatar.com", target="_blank")
-        img(src=citizen.gravatar, width="30")
-        strong= t('Change your profile picture at gravatar.com')
+      .image-container
+        img(src=citizen.profilePicture(), width="30")
+      .controls
+        a(href="https://gravatar.com", target="_blank")
+          strong= t('Change your profile picture at gravatar.com')
+        input.form-control(type='text', name='profilePictureUrl', tabindex=4, placeholder=t('Or paste an image URL here...'), value=citizen.profilePictureUrl, validate='url')
+
     .form-group
       label #{t('First name')}
       input.form-control(type='text', id="firstName", name='firstName', tabindex=1, placeholder=t('First name'), value='#{citizen.firstName}', validate='required firstname')
