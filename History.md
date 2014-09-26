@@ -1,4 +1,14 @@
 
+0.8.3 - DCENT / 2014-09-25
+==================
+
+ * Add activity stream
+ * Add user profile editable image url
+ * Add tags on user profile page
+ * Add editable section on user profile page
+ * Remove prefix from 'lawId'
+ * Fix DemocracyOS/side-comments pinned version
+
 0.8.3 / 2014-09-22
 ==================
 
