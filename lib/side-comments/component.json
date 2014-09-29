@@ -2,7 +2,7 @@
   "name": "side-comments",
   "description": "wrapper for aroc/side-comments component",
   "dependencies": {
-    "DemocracyOS/side-comments": "fbbda25c7985af10aafa6358ba6e4ac8cc758617"
+    "DemocracyOS/side-comments": "0.0.4"
   },
   "styles": [ "side-comments.css", "side-comments-theme.css" ],
   "scripts": [ "main.js" ],
