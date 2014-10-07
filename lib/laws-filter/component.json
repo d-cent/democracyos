@@ -10,7 +10,7 @@
     "component/to-function": "2.0.5",
     "gvilarino/set": "1.1.0"
   },
-  "local": [
+  "locals": [
     "citizen",
     "laws",
     "store",
