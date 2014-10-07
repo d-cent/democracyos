@@ -1,4 +1,29 @@
 
+0.8.8 / 2014-10-06
+==================
+
+ * Pin mongoose version to 3.8.16
+
+0.8.7 / 2014-10-06
+==================
+
+ * Bump component-resolver dep version
+
+0.8.6 / 2014-10-02
+==================
+
+ * Update timeago dep
+
+0.8.5 / 2014-09-30
+==================
+
+ * Fix rendering clauses when only 1 clause is present. Closes #440
+
+0.8.4 / 2014-09-29
+==================
+
+ * Fix null citizen on lookup
+
 0.8.3b / 2014-09-25
 ==================
 
