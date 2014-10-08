@@ -1,4 +1,39 @@
 
+0.8.16 / 2014-10-08
+==================
+
+ * Fix summary html rendering
+ * Complete catalan translation
+ * Add side-comments for summary paragraphs. Closes #33
+ * Fix sorting by 'Closing soon'. Close #442
+ * removes spanish error message (changed to english) - PR #442
+ * Update DemocracyOS/side-comments dep version. Close #436
+
+0.8.15 / 2014-10-08
+==================
+
+ * Add deleting comments as a staff member
+
+0.8.14 / 2014-10-07
+==================
+
+ * Bump sidebar-comments dep version to 0.0.9 and stylize them
+
+0.8.13 / 2014-10-07
+==================
+
+ * Bump DemocracyOS/side-comments dep version
+
+0.8.12 / 2014-10-07
+==================
+
+ * Fix side-comments avatar usage. Closes #447
+
+0.8.11 / 2014-10-07
+==================
+
+ * Partially undo last fix
+
 0.8.10 / 2014-10-07
 ==================
 
