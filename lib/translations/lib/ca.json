@@ -7,12 +7,18 @@
   "DemocracyOS": "DemocracyOS",
   "header.logo": "DemocracyOS",
   "header.signin": "Entrada",
+  "header.my_profile": "Meu perfil",
   "Login to": "Entrada a",
   "header.signup": "Registrar-se",
   "Signup now": "Registra'm  ara",
   "header.logout": "Tancar la sessió",
   "header.settings": "El meu compte",
   "header.feedback": "Suggerències",
+
+  "activity.stream.title": "informe d'Activitat",
+
+  "profile.about": "Sobre",
+  "profile.tags": "Etiquetes subscrites",
 
   "Incorrect password": "Contrasenya Incorrecta",
   "Incorrect username": "Nom d'usuari incorrecte",
@@ -242,7 +248,7 @@
   "admin-laws-form.label.mediaTitle": "Títol de medios",
   "admin-laws-form.label.author": "Autor",
   "admin-laws-form.label.source": "Font",
-  "admin-laws-form.placeholder.source": "http://laws-source.org/official-url/",
+  "admin-laws-form.placeholder.source": "http://topic-source.org/official-url/",
   "admin-laws-form.label.tag": "Etiquete",
   "admin-laws-form.label.summary": "Sumari",
   "admin-laws-form.label.closingAt": "Tancament a",
