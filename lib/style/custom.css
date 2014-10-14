@@ -91,7 +91,7 @@ header.app-header {
 }
 .alert .alertwarning {
 	background: white;
-	/*font-family:"Comfortaa", sans-serif;*/
+	font-family:"Comfortaa", sans-serif;
 	color: #FF61E5;
 	font-size: 0.80em;
 	text-align: center;
@@ -102,7 +102,7 @@ header.app-header {
 }
 .alert .alert-success {
 	background: white;
-	/*font-family:"Comfortaa", sans-serif;*/
+	font-family:"Comfortaa", sans-serif;
 	color: #00B259;
 	font-size: 0.80em;
 	text-align: center;
@@ -113,7 +113,7 @@ header.app-header {
 }
 .alert .alert-danger {
 	background: white;
-	/*font-family:"Comfortaa", sans-serif;*/
+	font-family:"Comfortaa", sans-serif;
 	color: #FF4000;
 	font-size: 0.80em;
 	text-align: center;
