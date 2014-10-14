@@ -1,1 +1,154 @@
 /* Add your custom css style here */
+
+/* FONTS */
+
+
+body {
+	font-family: 'Muli', sans-serif;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Comfortaa', cursive;
+}
+
+/* Links */
+
+a {
+	color: #007E84;
+	text-decoration: none;
+	outline: 0;
+}
+a: hover, a: focus {
+	color: #48BEC4;
+	text-decoration: underline;
+}
+a: visited {
+	color: #9E0084;
+}
+/* header */
+
+header.app-header {
+	background: #222;
+}
+/* Buttons */
+
+.btn {
+	text-transform: none;
+	font-weight: normal;
+	letter-spacing: 1px;
+	border: 0;
+}
+.btn.btn-success {
+	color: #00B259;
+	background-color: #BFFFDF;
+	border-color: #00D96D;
+	border-width: 1px;
+	border-style: solid;
+}
+.btn.btn-success: hover, .btn-success: focus, .btn-success: active {
+	color: white;
+	background-color: #00D96D;
+	border-color: #00D96D;
+	border-width: 1px;
+	border-style: solid;
+}
+.btn-primary {
+	color: #007E84;
+	background-color: #B9F6F7;
+	border-color: #007E84;
+}
+.btn-primary: hover, .btn-primary: focus, .btn-primary: active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	color: #fff;
+	background-color: #007E84;
+	border-color: #007E84;
+}
+.status-filter a {
+	font-size: 12px;
+	font-weight: bold;
+	color: #222;
+	background-color: #F15B40;
+	border: 1px solid;
+	border-colour: #222;
+}
+.status-filter a.active {
+	color: #F15B40;
+	background-color: #222;
+}
+/* alerts */
+
+.alert .alert-info {
+	background: white;
+	font-family: "Comfortaa", sans-serif;
+	color: #48BEC4;
+	font-size: 0.80em;
+	text-align: center;
+	border-color: #48BEC4;
+	border-width: 1px;
+	border-radius: 8px;
+	border-style: solid;
+}
+.alert .alertwarning {
+	background: white;
+	/*font-family:"Comfortaa", sans-serif;*/
+	color: #FF61E5;
+	font-size: 0.80em;
+	text-align: center;
+	border-color: #FF61E5;
+	border-width: 1px;
+	border-radius: 8px;
+	border-style: solid;
+}
+.alert .alert-success {
+	background: white;
+	/*font-family:"Comfortaa", sans-serif;*/
+	color: #00B259;
+	font-size: 0.80em;
+	text-align: center;
+	border-color: #00D96D;
+	border-width: 1px;
+	border-radius: 8px;
+	border-style: solid;
+}
+.alert .alert-danger {
+	background: white;
+	/*font-family:"Comfortaa", sans-serif;*/
+	color: #FF4000;
+	font-size: 0.80em;
+	text-align: center;
+	border-color: #FF4000;
+	border-width: 1px;
+	border-radius: 8px;
+	border-style: solid;
+}
+/* Annotation */
+
+.side-comment .marker: hover, .side-comment.active .marker {
+	background: #222222;
+}
+.side-comment .marker: hover: after, .side-comment.active .marker: after {
+	border-color: #222222 transparent;
+}
+/* Voting results */
+
+.proposal-options .results-box .votes-afirmative,
+.proposal-options .results-box .votes-afirmative h5 {
+	color: #00D9A3;
+}
+.proposal-options .results-box .votes-negative,
+.proposal-options .results-box .votes-negative h5 {
+	color: #F15B40;
+}
+.proposal-options .results-box .votes-neutral,
+.proposal-options .results-box .votes-neutral h5 {
+	color: #666;
+}
+/* aside */
+
+aside.nav-proposal .navlist {
+	background-color: #F15B40;
+}
+aside.nav-proposal .navlist li.active a {
+	background-color: #FFBFBF;
+}
