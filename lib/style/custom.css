@@ -36,24 +36,7 @@ h3,
 	font-size: 1.3125em;
 	line-height: 1.3;
 }
-h4,
-.delta {
-	margin-bottom: 1.5em;
-	font-size: 1.125em;
-	line-height: 1.25;
-}
-h5,
-.epsilon {
-	margin-bottom: 1.5em;
-	font-size: 1em;
-}
-h6,
-.zeta {
-	margin-bottom: 1.5em;
-	font-size: 0.875em;
-	font-weight: 400;
-	text-transform: uppercase;
-}
+
 .title-page h1 {
 	font-size: 16px;
 }
@@ -64,6 +47,10 @@ aside.nav-proposal .navlist li a span.title {
 
 aside.nav-proposal .navlist li a span.created-by {
 	opacity: 1!important;
+}
+
+.text-muted {
+	color: #aaa;
 }
 
 /* Links */
@@ -116,7 +103,7 @@ header.app-header {
 	border-width: 1px;
 	border-style: solid;
 }
-.btn.btn-success: hover, .btn-success: focus, .btn-success: active {
+.btn.btn-success:hover, .btn-success:focus, .btn-success:active {
 	color: white;
 	background-color: #00D96D;
 	border-color: #00D96D;
@@ -128,7 +115,7 @@ header.app-header {
 	background-color: #B9F6F7;
 	border: solid 1px #007E84!important;
 }
-.btn-primary: hover, .btn-primary: focus, .btn-primary: active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
 	color: #fff;
 	background-color: #007E84;
 	border-color: #007E84;
@@ -166,6 +153,12 @@ header.app-header {
 	background-color: #48BEC4!important;
 	color: #fff!important;
 }
+
+.comments-filter .btn {
+	color: #007E84;
+}
+
+
 /* alerts */
 
 .alert {
@@ -275,9 +268,19 @@ article.proposal .entry-tag .hexagon + span {
 
 article.proposal .source p a {
 	color: #007E84;
+	font-weight: normal;
 }
 
 article.proposal .participants {
+	font-weight: normal;
 	border-bottom: 2px solid #E5E5E5;
 	border-top: 2px solid #E5E5E5;
+}
+
+article.proposal .share-links a {
+	background-color: #aaa;
+}
+
+article.proposal .read-more {
+	font-weight: normal;
 }
