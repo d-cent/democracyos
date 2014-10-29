@@ -1,4 +1,13 @@
 
+0.8.24a / 2014-10-29
+==================
+
+ * added styles for article section
+ * added typography changes
+ * added reference to comfortaa font custom css
+ * added google fonts link to the head
+ * added css from the github issues, modified that custom.css is being loaded last
+
 0.8.24 / 2014-10-22
 ==================
 
