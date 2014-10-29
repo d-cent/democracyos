@@ -1,1 +1,286 @@
 /* Add your custom css style here */
+
+/* FONTS */
+
+body {
+	font-family: 'Muli', sans-serif;
+	color: #222222;
+}
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Comfortaa', cursive;
+	text-rendering: optimizeLegibility;
+}
+
+h1,
+.alpha {
+	margin-bottom: 0.5em;
+	font-size: 2em;
+	line-height: 1.2;
+}
+h2,
+.beta {
+	margin-bottom: 0.75em;
+	font-size: 1.75em;
+	line-height: 1.2;
+}
+h3,
+.gamma {
+	margin-bottom: 1em;
+	font-size: 1.3125em;
+	line-height: 1.3;
+}
+
+.title-page h1 {
+	font-size: 16px;
+}
+
+aside.nav-proposal .navlist li a span.title {
+	margin-bottom: 3px!important;
+}
+
+aside.nav-proposal .navlist li a span.created-by {
+	opacity: 1!important;
+}
+
+.text-muted {
+	color: #aaa;
+}
+
+/* Links */
+
+a {
+	color: #007E84;
+	text-decoration: none;
+	outline: 0;
+}
+a: hover, a: focus {
+	color: #48bec4;
+	text-decoration: underline;
+}
+/*
+Had to disable cause it caused some inheritance issues
+a: visited {
+	color: #9E0084;
+}
+*/
+
+/* inputs */
+
+input,
+.form-control {
+	border: solid 1px #007E84;
+}
+.form-control: focus {
+	border-color: #007E84;
+	border-width: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+/* header */
+
+header.app-header {
+	background: #222;
+}
+/* Buttons */
+
+.btn {
+	text-transform: none;
+	font-weight: normal;
+	letter-spacing: 1px;
+	border: 0;
+}
+.btn.btn-success {
+	color: #00B259;
+	background-color: #BFFFDF!important;
+	border-color: #00D96D;
+	border-width: 1px;
+	border-style: solid;
+}
+.btn.btn-success:hover, .btn-success:focus, .btn-success:active {
+	color: white;
+	background-color: #00D96D;
+	border-color: #00D96D;
+	border-width: 1px;
+	border-style: solid;
+}
+.btn-primary {
+	color: #007E84;
+	background-color: #B9F6F7;
+	border: solid 1px #007E84!important;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	color: #fff;
+	background-color: #007E84;
+	border-color: #007E84;
+}
+
+
+#status-filter a.active {
+	background-color: #007E84;
+}
+
+#status-filter a {
+	background-color: #48BEC4;
+}
+
+.dropdown-department .btn-group button.btn.btn-default {
+	background-color: #48BEC4!important;
+}
+
+.dropdown-department .btn-group.open button.btn.btn-default {
+	background-color: #007E84!important;
+}
+
+
+
+.dropdown-department .caret {
+	color: #fff;
+}
+
+.dropdown-department .btn-group .dropdown-menu a:hover {
+	background-color: #007E84!important;
+	color: #fff!important;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+	background-color: #48BEC4!important;
+	color: #fff!important;
+}
+
+.comments-filter .btn {
+	color: #007E84;
+}
+
+
+/* alerts */
+
+.alert {
+	font-family: "Comfortaa", sans-serif;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 8px!important;
+}
+.alert.alert-info {
+	background: #48BEC4!important;
+	color: #FFF!important;
+}
+.alert.alert-warning {
+	background: #FF61E5!important;
+	color: #FFF!important;
+}
+
+.alert-warning .alert-link {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.alert.alert-success {
+	background: #00B259!important;
+	color: #FFF!important;
+}
+.alert.alert-danger {
+	background: #FF4000!important;
+	color: #FFF!important;
+}
+
+.no-laws {
+	background-color: #aaa;
+}
+
+
+/* Annotation */
+
+.side-comment .marker:hover, .side-comment.active .marker {
+	background: #222222;
+}
+.side-comment .marker:hover:after, .side-comment.active .marker:after {
+	border-color: #222222 transparent;
+}
+/* Voting results */
+
+.proposal-options .results-box .votes-afirmative,
+.proposal-options .results-box .votes-afirmative h5 {
+	color: #00D9A3;
+}
+.proposal-options .results-box .votes-negative,
+.proposal-options .results-box .votes-negative h5 {
+	color: #F15B40;
+}
+.proposal-options .results-box .votes-neutral,
+.proposal-options .results-box .votes-neutral h5 {
+	color: #666;
+}
+
+/* aside */
+
+.nav-proposal .dropdown-department {
+	padding: 16px;
+}
+
+
+aside.nav-proposal {
+	background-color: #E5E5E5!important;
+	border-right-color: #E5E5E5!important;
+}
+
+aside.nav-proposal .navlist li.active.active a {
+	background-color: #aaaaaa!important;
+	color: #fff!important;
+}
+
+
+aside.nav-proposal .navlist li.active.active a:hover {
+	opacity: .6;
+}
+
+/* article */
+
+article.proposal {
+	font-size: 16px;
+	color: #222!important;
+}
+article.proposal .summary {
+	font-size: 100%;
+}
+
+
+article.proposal .entry-tag .hexagon {
+	margin-bottom: 10px;
+}
+
+article.proposal .entry-tag .hexagon + span {
+	color: #222;
+}
+
+@media (max-width: 1099px) {
+	article.proposal .entry-tag {
+		border-bottom: solid 2px #E5E5E5!important;
+	}
+}
+
+
+article.proposal .source p a {
+	color: #007E84;
+	font-weight: normal;
+}
+
+article.proposal .participants {
+	font-weight: normal;
+	border-bottom: 2px solid #E5E5E5;
+	border-top: 2px solid #E5E5E5;
+}
+
+article.proposal .share-links a {
+	background-color: #aaa;
+}
+
+article.proposal .read-more {
+	font-weight: normal;
+}

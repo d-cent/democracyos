@@ -10,7 +10,6 @@
     "slifszyc/user-agent": "0.0.9"
   },
   "locals": [
-    "style",
     "config",
     "body-classes",
     "content-lock",
@@ -28,7 +27,8 @@
     "logout",
     "help",
     "profile",
-    "404"
+    "404",
+    "style"
   ],
   "scripts": [ "boot.js" ],
   "styles": [ "boot.styl", "boot-responsive.styl" ],
