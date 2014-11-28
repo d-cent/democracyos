@@ -30,3 +30,23 @@
 	color: #666;
 	margin-left: 5px;
 }
+
+#footer-container {
+	color: #666;
+	padding: 20px;
+	text-align: center;
+}
+
+#footer-container div.logos-container {
+	overflow: hidden;
+	width: 100%;
+}
+
+#footer-container div.logos-container a.logo {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+#footer-container div.logos-container a.logo img {
+	max-height: 30px
+}

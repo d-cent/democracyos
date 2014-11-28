@@ -159,6 +159,29 @@ header.app-header {
 }
 
 
+.proposal-options .vote-options .vote-option.vote-yes, .proposal-options .vote-options .vote-option.vote-yes:hover {
+	background-color: #BFFFDF;
+	border: solid 1px #00B259;
+	color: #00B259;
+}
+
+.proposal-options .vote-options .vote-option.vote-abstain, .proposal-options .vote-options .vote-option.vote-abstain:hover {
+	background-color: #EEEEEE;
+	border: solid 1px #666666;
+	color: #666666;
+
+}
+
+.proposal-options .vote-options .vote-option.vote-no, .proposal-options .vote-options .vote-option.vote-no:hover {
+	background-color: #FFBFBF;
+	border: solid 1px #FF4000;
+	color: #FF4000;
+}
+
+.comments-filter ul.dropdown-menu li a, .comments-filter .btn .caret, ul.admin-menu li a {
+	color: #007E84;
+}
+
 /* alerts */
 
 .alert {
@@ -240,6 +263,14 @@ aside.nav-proposal .navlist li.active.active a:hover {
 	opacity: .6;
 }
 
+.hide-voted-box {
+	padding-top: 10px;
+}
+
+.user-badge .dropdown-menu a:hover {
+	background-color: #007E84!important;
+}
+
 /* article */
 
 article.proposal {
@@ -283,4 +314,11 @@ article.proposal .share-links a {
 
 article.proposal .read-more {
 	font-weight: normal;
+}
+
+
+/* profile */
+
+#activity-stream-wrapper ul.activity-container li {
+	padding: 5px;
 }
