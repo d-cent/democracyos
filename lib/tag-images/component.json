@@ -10,6 +10,17 @@
     "images/police.svg",
     "images/people.svg",
     "images/transportation.svg"
+    "images/culture.svg"
+    "images/economy.svg"
+    "images/education.svg"
+    "images/health.svg"
+    "images/housing.svg"
+    "images/immigration.svg"
+    "images/infosociety.svg"
+    "images/lgbt.svg"
+    "images/participation.svg"
+    "images/security.svg"
+    "images/work.svg"
   ],
   "scripts": [
     "index.js"
