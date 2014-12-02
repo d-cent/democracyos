@@ -1,9 +1,9 @@
 /* Add your custom css style here */
 
-/* FONTS */
-
 body {
-	font-family: 'Muli', sans-serif;
+	font-family:"Muli","Helvetica",sans-serif;
+	font-weight:400;
+	font-style:normal;
 	color: #222222;
 }
 /* Typography */
@@ -182,17 +182,44 @@ header.app-header {
 	color: #007E84;
 }
 
+
+ul.tag-pills li.tag-pill {
+	display:inline-block;
+	padding:.25em 1em;
+	font-size:12px;
+	background-color:#D3FFFD;
+	color:#007E84;
+	border-radius:5px;
+}
+
+ul.tag-pills li.tag-pill .label {
+	color:#007E84;
+}
+
+#user-profile-wrapper-edit .image-container img {
+	margin-bottom: 20px;
+}
+
+#user-profile-wrapper .profile-container .tags-container ul.tag-pills .tag-pill .label {
+	font-size:12px;
+	font-weight: 400;
+	color:#007E84;
+}
+
+
 /* alerts */
 
 .alert {
-	font-family: "Comfortaa", sans-serif;
+    padding:.5em;
+	text-align:center;
+	border:solid 3px!important;
+	border-radius:9px!important;
 	font-size: 16px;
-	text-align: center;
-	border-radius: 8px!important;
 }
 .alert.alert-info {
-	background: #48BEC4!important;
-	color: #FFF!important;
+	background: transparent!important;
+	color:#007E84!important;
+	border-color:#007E84!important;
 }
 .alert.alert-warning {
 	background: #FF61E5!important;
@@ -240,6 +267,7 @@ header.app-header {
 .proposal-options .results-box .votes-neutral h5 {
 	color: #666;
 }
+
 
 /* aside */
 
