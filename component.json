@@ -1,6 +1,6 @@
 {
   "name": "democracyos",
-  "version": "0.8.24a",
+  "version": "0.8.24b",
   "description": "An online space for deliberation and voting on political proposals. The software aims to stimulate better arguments and come to better rulings.",
   "paths": [
     "lib"
