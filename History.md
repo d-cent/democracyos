@@ -1,4 +1,10 @@
 
+0.8.24d / 2014-12-05
+==================
+
+ * changed d-cent logo on sidebar bottom
+ * Update en.json
+
 0.8.24c / 2014-12-03
 ==================
 
