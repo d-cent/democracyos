@@ -1,4 +1,22 @@
 
+0.8.24c / 2014-12-03
+==================
+
+ * fix for the show toggle on profile edit
+ * overwriting styles with styles from patternlab
+ * added more elements to include show edit function
+ * hided stream cause it is empty
+ * fixed order on sidebar logos
+ * added show edit function to img, title, description
+ * added message styles
+ * updated sidebar with logos
+
+0.8.24b / 2014-12-02
+==================
+
+ * Update icons
+ * removed remote font server and added custom style config
+
 0.8.24a / 2014-10-29
 ==================
 
