@@ -445,3 +445,7 @@ article.proposal .read-more {
 #user-profile-wrapper .profile-container h2, .about-container, #user-profile-wrapper .profile-container {
     cursor: pointer;
 }
+
+aside.nav-proposal .navlist li a .item-tag svg.hexagon, aside.nav-proposal .navlist li.active a .item-tag svg.hexagon, article.proposal .entry-tag .hexagon {
+    opacity: 0!important;
+}
