@@ -1,4 +1,12 @@
 
+0.8.24e / 2014-12-07
+==================
+
+ * Update finnish translation
+ * update fixtures to fit d-cent tags
+ * Add black icons
+ * added opacity 0 to hexagon
+
 0.8.24d / 2014-12-05
 ==================
 
