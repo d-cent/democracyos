@@ -4,7 +4,7 @@
   "common.cancel": "Cancel",
   "common.back": "Back",
 
-  "DemocracyOS": "DemocracyOS",
+  "DemocracyOS": "D-CENT",
   "header.logo": "Home",
   "header.signin": "Login",
   "header.my_profile": "My Profile",
@@ -18,7 +18,10 @@
   "activity.stream.title": "Activity Stream",
 
   "profile.about": "About",
-  "profile.tags": "Subscribed tags",
+  "profile.about.input": "About you",
+  "profile.tags": "Tags",
+  "profile.tags.input": "Type a tag name",
+  "profile.subscribed-tags": "Subscribed tags",
 
   "Incorrect password": "Incorrect password",
   "Incorrect username": "Incorrect username",
@@ -312,7 +315,7 @@
   "markdown.emphasis.example.3": "Combined emphasis with **asterisks and _underscores_**.",
   "markdown.url-autolinking.title": "Link",
   "markdown.url-autolinking.text": "DemocracyOS markdown will autolink standard URLs, so if you want to link to a URL, you can simply enter the URL and it will be turned into a link to that URL.",
-  "markdown.url-autolinking.text.2": "Also, you can create an inline link, by wrapping link text in brackets ( [ ] ), and then wrapping the link in parenthesis ( ( ) ).",
+  "markdown.url-autolinking.text.2": "Also, you can create an inline link, by wrapping link text in brackets ( [ ] ), and then wrapping the link in parentheses ( ( ) ).",
   "markdown.url-autolinking.text.3": "For example, to create a link to http://www.example.com, with a link text that says, Visit Example.com!, you'd write this:",
   "markdown.url-autolinking.example": "Visit http://example.com",
   "markdown.url-autolinking.example2": "[Visit Example.com!](http://www.example.com)",

@@ -16,8 +16,8 @@
         label= t('Email')
         input.form-control(type='text', disabled='disabled' name='email', tabindex=3, placeholder=t('example@email.com'), value='#{citizen.email}', validate='required email')
       .form-group
-        label= t('About')
-        textarea.form-control(type='textarea' name='about', tabindex=4, placeholder=t('About you'))
+        label= t('profile.about')
+        textarea.form-control(type='textarea' name='about', tabindex=4, placeholder=t('profile.about.input'))
           | #{citizen.about}
       .form-group.profile-picture
         .image-container

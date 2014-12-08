@@ -15,8 +15,8 @@
       label #{t('Last name')}
       input.form-control(type='text', id="lastName", name='lastName', tabindex=2, placeholder=t('Last name'), value='#{citizen.lastName}', validate='required lastname')
     .form-group
-      label= t('About')
-      textarea.form-control(type='textarea' name='about', tabindex=4, placeholder=t('About you'))
+      label= t('profile.about')
+      textarea.form-control(type='textarea' name='about', tabindex=4, placeholder=t('profile.about.input'))
         | #{citizen.about}
     .form-group.tags-wrapper
 
