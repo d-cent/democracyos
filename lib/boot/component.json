@@ -38,7 +38,8 @@
     "images/touch-icon-ipad.png",
     "images/touch-icon-iphone-retina.png",
     "images/touch-icon-ipad-retina.png",
-    "images/logo.png"
+    "images/logo.png",
+    "images/favicon.png"
   ],
   "main": "boot.js"
 }
