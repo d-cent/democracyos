@@ -165,6 +165,7 @@
   "Email sent" : "Email sent",
   "The validation email was resent.": "The validation email was resent.",
   "Email not validated" : "The email address for this user is not validated. We send users a welcome email when they sign up. Please check your email (remember to check your spam folder too) and click on the link supplied on the email. Click <a href='/signup/resend-validation-email'>here</a> if you need the welcome email to be resent",
+  "This account has been disabled" : "This account has been disabled",
   "No citizen found with that email address": "No user found with that email address",
 
   "Account data": "Account data",
@@ -273,8 +274,8 @@
   "admin-laws-form.clause.label.order": "Order",
   "admin-laws-form.clause.label.text": "Text",
   "admin-laws-form.clause.button.delete": "Delete",
-  "admin-laws-form.clause.confirmation.title": "Clause removal",
   "admin-laws-form.clause.confirmation.body": "This action will erase data permanently. Would you like to proceed?",
+  "admin-laws-form.clause.confirmation.title": "Clause removal",
   "admin-laws-form.clause.confirmation.cancel": "Cancel",
   "admin-laws-form.clause.confirmation.ok": "Delete",
   "admin-laws-form.clause.text-centered": "Text centered",
