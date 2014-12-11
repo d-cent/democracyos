@@ -421,7 +421,8 @@ article.proposal .read-more {
     color: #222;
 }
 
-.article.proposal .entry-tag, #user-profile-wrapper .profile-container h3, #settings-container #settings label {
+.article.proposal .entry-tag, #user-profile-wrapper .profile-container h3, 
+#settings-container #settings label, #status-filter a, a, #hide-voted-filter label {
     font-family: 'muli_boldbold';
     font-weight: normal;
     font-style: normal;
