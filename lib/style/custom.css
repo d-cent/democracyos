@@ -450,3 +450,21 @@ article.proposal .read-more {
 aside.nav-proposal .navlist li a .item-tag svg.hexagon, aside.nav-proposal .navlist li.active a .item-tag svg.hexagon, article.proposal .entry-tag .hexagon {
     opacity: 0!important;
 }
+
+
+.article.proposal .entry-tag img {
+	width: auto;
+	height: 95px;
+	left: 5px;
+	top: -20px;
+	position: absolute;
+}
+
+aside.nav-proposal .navlist li a .item-tag img {
+	width: auto;
+	height: 45px;
+	position: absolute;
+	z-index: 100;
+	left: 0;
+	top: -8px;
+}
