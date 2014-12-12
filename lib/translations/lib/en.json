@@ -221,6 +221,7 @@
 
   "proposal-article.article.alert.text": "This is DemocracyOS",
   "proposal-article.article.alert.learn-more": "Learn more",
+  "proposal-options.error.voting": "An error occurred while processing your vote. Please try again",
 
   "Remove argument" : "Remove argument",
   "Spam" : "Report as spam",

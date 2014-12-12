@@ -221,6 +221,7 @@
 
   "proposal-article.article.alert.text": "Tämä on D-CENT:n yhden toiminnallisuuden demoversio HELKAlle",
   "proposal-article.article.alert.learn-more": "Lue lisää käytetystä lähdekoodista",
+  "proposal-options.error.voting": "Oli virhe äänestäsi. Yritä uudelleen",
 
   "Remove argument" : "Poista kommentti",
   "Spam" : "Raportoi roskapostina",
