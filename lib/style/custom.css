@@ -422,9 +422,9 @@ article.proposal .read-more {
 }
 
 .article.proposal .entry-tag, #user-profile-wrapper .profile-container h3, 
-#settings-container #settings label, #status-filter a, a, #hide-voted-filter label {
+#settings-container #settings label, #status-filter a, a, #hide-voted-filter label, aside.nav-proposal .navlist li a span.title {
     font-family: 'muli_boldbold';
-    font-weight: normal;
+    font-weight: normal!important;
     font-style: normal;
 }
 
@@ -452,7 +452,7 @@ aside.nav-proposal .navlist li a .item-tag svg.hexagon, aside.nav-proposal .navl
 }
 
 
-.article.proposal .entry-tag img {
+article.proposal .entry-tag img {
 	width: auto!important;
 	height: 95px!important;
 	left: 5px!important;
