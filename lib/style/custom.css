@@ -453,18 +453,18 @@ aside.nav-proposal .navlist li a .item-tag svg.hexagon, aside.nav-proposal .navl
 
 
 .article.proposal .entry-tag img {
-	width: auto;
-	height: 95px;
-	left: 5px;
-	top: -20px;
-	position: absolute;
+	width: auto!important;
+	height: 95px!important;
+	left: 5px!important;
+	top: -20px!important;
+	position: absolute!important;
 }
 
 aside.nav-proposal .navlist li a .item-tag img {
-	width: auto;
-	height: 45px;
-	position: absolute;
-	z-index: 100;
-	left: -2px;
-	top: -8px;
+	width: auto!important;
+	height: 40px!important;
+	position: absolute!important;
+	z-index: 100!important;
+	left: -2px!important;
+	top: -8px!important;
 }
