@@ -465,6 +465,6 @@ aside.nav-proposal .navlist li a .item-tag img {
 	height: 45px;
 	position: absolute;
 	z-index: 100;
-	left: 0;
+	left: -2px;
 	top: -8px;
 }
