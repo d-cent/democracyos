@@ -422,9 +422,10 @@ article.proposal .read-more {
     color: #222;
 }
 
-.article.proposal .entry-tag, #user-profile-wrapper .profile-container h3, #settings-container #settings label {
+.article.proposal .entry-tag, #user-profile-wrapper .profile-container h3, 
+#settings-container #settings label, #status-filter a, a, #hide-voted-filter label, aside.nav-proposal .navlist li a span.title {
     font-family: 'muli_boldbold';
-    font-weight: normal;
+    font-weight: normal!important;
     font-style: normal;
 }
 
@@ -449,4 +450,22 @@ article.proposal .read-more {
 
 aside.nav-proposal .navlist li a .item-tag svg.hexagon, aside.nav-proposal .navlist li.active a .item-tag svg.hexagon, article.proposal .entry-tag .hexagon {
     opacity: 0!important;
+}
+
+
+article.proposal .entry-tag img {
+	width: auto!important;
+	height: 95px!important;
+	left: 5px!important;
+	top: -20px!important;
+	position: absolute!important;
+}
+
+aside.nav-proposal .navlist li a .item-tag img {
+	width: auto!important;
+	height: 40px!important;
+	position: absolute!important;
+	z-index: 100!important;
+	left: -2px!important;
+	top: -8px!important;
 }
