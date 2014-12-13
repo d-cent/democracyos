@@ -1,4 +1,13 @@
 
+0.8.26a / 2014-12-13
+==================
+
+ * corrected .article to article
+ * made sidebar tag little smaller
+ * moved sidebar tag image 2px to the left
+ * made tag images bigger on sidebar and article
+ * added muli bold styles to sidebar elements
+
 0.8.26 / 2014-12-11
 ==================
 
